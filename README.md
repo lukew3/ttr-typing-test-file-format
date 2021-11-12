@@ -26,6 +26,13 @@ Contains information about the test, such as who took it, when they took it, wha
   * For word modes, length could be `10w` (10 words), `50w`, `2s` (2 sentences), `3p` (3 paragraphs)
 * `extras` - An array of strings representing extra features that are not common enough to have their own fields.
   * Examples include: "stop on word", "expert difficulty", "funbox mirror"
+* `stats` - Statistics about the test, recorded after the test was completed
+  * `wpm` - The words per minute
+  * `raw` - Raw words per minute
+  * `accuracy` - Percent of characters typed correctly
+  * `consistency` - Consistency of typed keys
+  * `time` - Time spent typing
+  * `characters` - List of integers counting number of correct, incorrect, extra, and missed characters
 
 ### data
 Contains an array of event objects, each which has a time, event, and if the event added a letter, a letter field will be included.
