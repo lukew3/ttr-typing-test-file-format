@@ -6,10 +6,11 @@
     "signature": "<pgp signature from recording software goes here>",
     "prompt": "The quick brown fox jumps over the lazy dog",
     "language": "english",
-    "modes": [
+    "mode": "time",
+    "mode2": "60"
+    "extras": [
       "stop on word",
       "expert difficulty",
-      "time 60"
     ]
   },
   "data": [
