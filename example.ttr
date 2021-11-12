@@ -1,0 +1,31 @@
+{
+  "ttrVersion": "0.0.1",
+  "metadata": {
+    "username": "exampleUser",
+    "recordingSoftware": "monkeytype.com",
+    "signature": "<pgp signature from recording software goes here>",
+    "prompt": "The quick brown fox jumps over the lazy dog",
+    "language": "english",
+    "modes": [
+      "stop on word",
+      "expert difficulty",
+      "time 60"
+    ]
+  },
+  "data": [
+    {
+      "time": 0,
+      "event": "start"
+    },
+    {
+      "time": 4,
+      "event": "correctLetter",
+      "letter": "T"
+    },
+    {
+      "time": 10,
+      "event": "incorrectLetter",
+      "letter": "e"
+    }
+  ]
+}
