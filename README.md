@@ -12,3 +12,4 @@ A standard for saving and replaying typing tests
 | 5 | Go back a letter |
 | 6 | Go back a word |
 | 7 | Delete an entire word | 
+| 8 | Test end |
