@@ -7,7 +7,7 @@
     "prompt": "The quick brown fox jumps over the lazy dog",
     "language": "english",
     "mode": "time",
-    "mode2": "60"
+    "length": "60s"
     "extras": [
       "stop on word",
       "expert difficulty",
