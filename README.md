@@ -20,7 +20,7 @@ Contains information about the test, such as who took it, when they took it, wha
 * `prompt` - The text that the user was prompted to type
 * `language` - The language that the test was conducted in
 * `mode` - The mode of the test
-  * Common modes are `time`, `words`, `quote`
+  * Common modes are `time`, `words` <!-- Should `quote` be included? I think not because quote is pretty much the same as words -->
 * `length` - The length of the test
   * For time modes, length could be `60s` (60 seconds), `15s`, `5m` (5 minutes)
   * For word modes, length could be `10w` (10 words), `50w`, `2s` (2 sentences), `3p` (3 paragraphs)
