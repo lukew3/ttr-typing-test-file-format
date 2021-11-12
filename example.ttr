@@ -4,6 +4,7 @@
     "username": "exampleUser",
     "recordingSoftware": "monkeytype.com",
     "signature": "<pgp signature from recording software goes here>",
+    "time": 1636734263,
     "prompt": "The quick brown fox jumps over the lazy dog",
     "language": "english",
     "mode": "time",
