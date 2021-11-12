@@ -23,6 +23,8 @@ Contains information about the test, such as who took it, when they took it, wha
   * Common modes are `time`, `words`, `quote`
 * `mode2` - A supplement to the mode field.
   * Common mode2 values are `60` or `15` for time. `10` or `50` for words. No value for mode2 when type is quote. 
+* `extras` - An array of strings representing extra features that are not common enough to have their own fields.
+  * Examples include: "stop on word", "expert difficulty", "funbox mirror"
 
 ### data
 Contains an array of event objects, each which has a time, event, and if the event added a letter, a letter field will be included.
