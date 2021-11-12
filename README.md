@@ -21,8 +21,9 @@ Contains information about the test, such as who took it, when they took it, wha
 * `language` - The language that the test was conducted in
 * `mode` - The mode of the test
   * Common modes are `time`, `words`, `quote`
-* `mode2` - A supplement to the mode field.
-  * Common mode2 values are `60` or `15` for time. `10` or `50` for words. No value for mode2 when type is quote. 
+* `length` - The length of the test
+  * For time modes, length could be `60s` (60 seconds), `15s`, `5m` (5 minutes)
+  * For word modes, length could be `10w` (10 words), `50w`, `2s` (2 sentences), `3p` (3 paragraphs)
 * `extras` - An array of strings representing extra features that are not common enough to have their own fields.
   * Examples include: "stop on word", "expert difficulty", "funbox mirror"
 
