@@ -16,18 +16,32 @@
   "data": [
     {
       "time": 0,
-      "event": "start"
+      "key": "T"
     },
     {
-      "time": 4,
-      "event": "correctLetter",
-      "letter": "T"
+      "time": 12,
+      "key": "e"
     },
     {
-      "time": 10,
-      "event": "incorrectLetter",
-      "letter": "e"
-    }
+      "time": 20,
+      "key": "Backspace"
+    },
+    {
+      "time": 38,
+      "key": "h"
+    },
+    {
+      "time": 50,
+      "key": "e"
+    },
+    {
+      "time": 58,
+      "key": " "
+    },
+    {
+      "time": 70,
+      "key": "q"
+    },
   ],
   "signature": "<pgp signature from recording software goes here>"
 }
