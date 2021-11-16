@@ -1,5 +1,5 @@
-# typingTestRecord
-A open standard for saving and replaying typing tests. This repository contains documenation on how the format should be used as well as the source code to a simple site to watch replays of typing tests.
+# typingTestRecord (.ttr)
+A open standard for saving and replaying typing tests. This repository contains documentation on how to follow the format.
 
 ## Structure
 The file is structured in json format. 
