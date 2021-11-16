@@ -1,4 +1,4 @@
-# typingTestRecord file format guide (.ttr)
+# typingTestRecord (.ttr) file format guide
 A open standard for saving and replaying typing tests. This repository contains documentation on how to follow the format.
 
 ## Structure
