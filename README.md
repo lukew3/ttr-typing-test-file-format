@@ -1,5 +1,5 @@
-# typingTestRecord (.ttr) file format guide
-A open standard for saving and replaying typing tests. This repository contains documentation on how to follow the format.
+# .ttr file format guide
+This repo provides documentation on the Typing Test Record(.ttr) file format, an open standard for saving and replaying typing tests.
 
 ## Structure
 The file is structured in json format. 
