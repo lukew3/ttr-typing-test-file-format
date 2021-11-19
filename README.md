@@ -37,13 +37,7 @@ Contains information about the test, such as who took it, when they took it, wha
 ### data
 Contains an array of event objects, each which has a time, event, and if the event added a letter, a letter field will be included.
 * `time` - An integer representing the time that the event occurred in milliseconds from the beginning of the test
-* `key` - The key pressed. Non-character key values can be found in [the table](#non-character-event-types) below.
-
-#### Non-character key values
-| key | meaning |
-|------|---------|
-| Backspace | Backspace key |
-| Delword | Delete the entire current word |
+* `key` - The key pressed.
 
 ### signature
 The pgp signature of the test. Assigned by the test's software providers, the signature can be checked against the provider's public key to test if the file truly came from the stated provider and contains no false data
