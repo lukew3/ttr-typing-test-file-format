@@ -35,7 +35,7 @@ Contains information about the test, such as who took it, when they took it, wha
   * `characters` - List of integers counting number of correct, incorrect, extra, and missed characters
 
 ### data
-Contains an array of event objects, each which has a time, event, and if the event added a letter, a letter field will be included.
+Contains an array of event arrays. Each event array has two elements. The first is the time and the second is the key.
 * `time` - An integer representing the time that the event occurred in milliseconds from the beginning of the test
 * `key` - The key pressed.
 
